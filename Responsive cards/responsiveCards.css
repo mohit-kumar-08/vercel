@@ -1,0 +1,97 @@
+body {
+    background-color: purple;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.heading {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    background-color: white;
+    display: inline-block;
+    margin: 6px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 2%;
+    height: 490px;
+}
+
+.cards:hover {
+    width: 385px;
+    box-shadow: 0px 0px 70px pink;
+    height: 495px;
+    transition-duration: 400ms;
+    border-radius: 5px;
+}
+
+img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 5px solid purple;
+    outline: 3px solid white;
+    outline-offset: -6px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+h1 {
+    color: purple;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.stars {
+    color: purple;
+    font-size: xx-large;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(55, 55, 55);
+    text-align: center;
+    font-weight: bold;
+    text-align: justify;
+}
+
+button {
+    display: inline;
+    margin: auto;
+    width: 140px;
+    height: 50px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+#ReadMore {
+    margin-left: 40px;
+    color: purple;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 3px solid purple;
+    background-color: white;
+}
+
+#Subscribe {
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: purple;
+    border: 0px;
+    margin: auto;
+}
